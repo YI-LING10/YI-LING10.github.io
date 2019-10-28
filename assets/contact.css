@@ -3,19 +3,41 @@ h1{
 	font-size: 50px;
 	margin: 0px 10px;
 }
-table{
+div.part1 table{
 	position: relative;
 	top: 100px;
 	left: 300px;
 	background-color:rgba(151,203,255,0.5);
 	padding: 10px;
 }
-.pic{
+div.part1 .pic{
 	width: 50px;
 	height: 50px;
 	float:left;
 	margin: 10px;
 }
+
+
+div.part2{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    margin: 100px 0px 200px 0px;
+}
+div.part3{
+    position: relative;
+    top: 45px;
+    left: 150px;
+    width: 1100px;
+    margin: 200px 0px 200px 0px;
+    padding: 50px;
+    background-color:rgba(136,136,136,0.5); 
+}
+div.part3 img{
+
+}
+
+
 
 #menu {
     position: fixed;
