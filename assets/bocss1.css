@@ -16,3 +16,32 @@ tr,td{
 	overflow-x:hidden;
 	height:130px 
 }
+
+#menu {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(255,255,0,0.5); /*透明效果*/
+}
+#menu li {
+    float: right;
+    list-style: none;
+}
+#menu a {
+    display: block;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    color: #aaa;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #000;
+}
+#menu li.active a {
+    border-top: 3px solid #333;
+}
