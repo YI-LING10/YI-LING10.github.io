@@ -1,0 +1,94 @@
+.coverflow
+{
+  position:relative;
+  left:330px;
+  top:10px;
+  width: 570px;
+  height: 340px;
+}
+
+.coverflow img
+{
+ border-radius: 10px;
+ box-shadow: 3px 5px 7px 3px gray;
+}
+ 
+
+.coverflow div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-animation: round 20s linear infinite;
+            animation: round 20s linear infinite;
+}
+
+
+@-webkit-keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        
+    }
+}
+@keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        
+    }
+}
+
+
+.coverflow div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+           
+}
+
+.coverflow div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+ }
+
+.coverflow div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+            
+}
+
+.coverflow div:nth-child(4) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+             
+
+}
+
+
+
+.coverflow:hover div 
+{
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}

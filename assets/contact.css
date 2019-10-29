@@ -37,7 +37,12 @@ div.part3 img{
 
 }
 
-
+body{
+    background-color: #edd9a8;
+}
+header{
+    background-color: #B4C4AE;
+}
 
 #menu {
     position: fixed;
