@@ -1,7 +1,49 @@
+h1{
+    font-family: 微軟正黑體;
+    font-size: 50px;
+    margin: 0px 10px;
+}
+table{
+    border-collapse: collapse;
+    margin:50px auto 50px auto;
+}
+td{
+    border-radius: 20px 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+}
+body{
+    background: -webkit-linear-gradient(#b4c4ae,#edd9a8);
+    background: -o-linear-gradient(#b4c4ae,#edd9a8);
+    background: -moz-linear-gradient(#b4c4ae,#edd9a8);
+    background: linear-gradient(#b4c4ae,#edd9a8);
+}
+td.color1{
+    background-color: #afc2d5;
+}
+td.color2{
+    background-color: #fff9a5;
+}
+a{
+    text-decoration: none;
+}
+td.color1 a{
+    color: #EDE247;
+}
+td.color2 a{
+    color: #5998D6;
+}
+
+
+
 .coverflow
 {
   position:relative;
-  left:330px;
+  left:600px;
   top:10px;
   width: 570px;
   height: 340px;
@@ -13,7 +55,6 @@
  box-shadow: 3px 5px 7px 3px gray;
 }
  
-
 .coverflow div {
     position: absolute;
     top: 0;
@@ -23,7 +64,6 @@
     -webkit-animation: round 20s linear infinite;
             animation: round 20s linear infinite;
 }
-
 
 @-webkit-keyframes round {
     5% {
@@ -60,7 +100,6 @@
     }
 }
 
-
 .coverflow div:nth-child(1) {
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
@@ -85,10 +124,39 @@
 
 }
 
-
-
 .coverflow:hover div 
 {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
+}
+
+
+
+#menu {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(255,255,0,0.5); /*透明效果*/
+}
+#menu li {
+    float: right;
+    list-style: none;
+}
+#menu a {
+    display: block;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    color: #aaa;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #000;
+}
+#menu li.active a {
+    border-top: 3px solid #333;
 }

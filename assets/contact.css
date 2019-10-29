@@ -33,16 +33,13 @@ div.part3{
     padding: 50px;
     background-color:rgba(136,136,136,0.5); 
 }
-div.part3 img{
-
-}
-
 body{
-    background-color: #edd9a8;
+    background: -webkit-linear-gradient(#b4c4ae,#edd9a8);
+    background: -o-linear-gradient(#b4c4ae,#edd9a8);
+    background: -moz-linear-gradient(#b4c4ae,#edd9a8);
+    background: linear-gradient(#b4c4ae,#edd9a8);
 }
-header{
-    background-color: #B4C4AE;
-}
+
 
 #menu {
     position: fixed;

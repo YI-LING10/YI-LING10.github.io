@@ -1,0 +1,13 @@
+body{
+    background: -webkit-linear-gradient(#b4c4ae,#edd9a8);
+    background: -o-linear-gradient(#b4c4ae,#edd9a8);
+    background: -moz-linear-gradient(#b4c4ae,#edd9a8);
+    background: linear-gradient(#b4c4ae,#edd9a8);
+}
+table{
+	border-collapse: collapse;
+	margin:10px auto 0px auto;
+}
+td{
+	border:1px solid black;
+}
