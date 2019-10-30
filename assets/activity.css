@@ -6,6 +6,8 @@ h1{
 table{
     border-collapse: collapse;
     margin:50px auto 50px auto;
+    position: relative;
+    top:100px;
 }
 td{
     border-radius: 20px 20px;
@@ -26,24 +28,28 @@ td.color1{
     background-color: #afc2d5;
 }
 td.color2{
-    background-color: #fff9a5;
+    background-color: #BDB1BF;
 }
 a{
     text-decoration: none;
 }
 td.color1 a{
-    color: #EDE247;
+    color: #746D75;
 }
 td.color2 a{
-    color: #5998D6;
+    color: #1C4A77;
 }
 
+.flow{
+    width: 600px;
+    height: 400px;
+}
 
 
 .coverflow
 {
   position:relative;
-  left:600px;
+  left:450px;
   top:10px;
   width: 570px;
   height: 340px;
@@ -51,7 +57,6 @@ td.color2 a{
 
 .coverflow img
 {
- border-radius: 10px;
  box-shadow: 3px 5px 7px 3px gray;
 }
  
@@ -61,8 +66,8 @@ td.color2 a{
     left: 0;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-animation: round 20s linear infinite;
-            animation: round 20s linear infinite;
+    -webkit-animation: round 45s linear infinite;
+            animation: round 45s linear infinite;
 }
 
 @-webkit-keyframes round {
@@ -123,6 +128,36 @@ td.color2 a{
              
 
 }
+
+.coverflow div:nth-child(5) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+             
+
+}
+
+.coverflow div:nth-child(6) {
+    -webkit-animation-delay: 25s;
+            animation-delay: 25s;
+             
+
+}
+
+.coverflow div:nth-child(7) {
+    -webkit-animation-delay: 30s;
+            animation-delay: 30s;
+             
+
+}
+
+.coverflow div:nth-child(8) {
+    -webkit-animation-delay: 35s;
+            animation-delay: 35s;
+             
+
+}
+
+
 
 .coverflow:hover div 
 {
