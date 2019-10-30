@@ -16,6 +16,14 @@ div.part1 .pic{
 	float:left;
 	margin: 10px;
 }
+img.picpeople{
+    width: 190px;
+    height: 250px;
+}
+img.picpeople2{
+    width: 220px;
+    height: 280px;
+}
 
 
 div.part2{
