@@ -17,6 +17,13 @@ tr,td{
 	height:130px 
 }
 
+body{
+    background: -webkit-linear-gradient(#b4c4ae,#edd9a8);
+    background: -o-linear-gradient(#b4c4ae,#edd9a8);
+    background: -moz-linear-gradient(#b4c4ae,#edd9a8);
+    background: linear-gradient(#b4c4ae,#edd9a8);
+}
+
 #menu {
     position: fixed;
     z-index: 10;

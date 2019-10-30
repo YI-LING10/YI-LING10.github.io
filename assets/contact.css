@@ -3,6 +3,22 @@ h1{
 	font-size: 50px;
 	margin: 0px 10px;
 }
+
+.connect{
+    float: right;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: black;
+}
+
+.part1{
+    font-family: 微軟正黑體;
+}
+.part3{
+    font-family: 微軟正黑體;
+}
+
 div.part1 table{
 	position: relative;
 	top: 100px;
