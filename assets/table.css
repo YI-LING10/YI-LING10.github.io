@@ -1,0 +1,22 @@
+table,td{
+		border-collapse: collapse;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        width:1000px;
+        height:10px;
+         border-radius: 2px;
+      }
+
+.a{
+	background-color:#77DDFF;
+	height: 40px;
+}
+.x{
+	background-color:#CCFF99;
+	height: 40px;
+}
+.c{
+	background-color:#FFCCCC;
+	height: 40px;
+}
