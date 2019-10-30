@@ -6,10 +6,18 @@ body{
 }
 table{
 	border-collapse: collapse;
-	margin:10px auto 0px auto;
-	margin-left:auto; 
-	margin-right:auto;
+	margin:50px auto 0px auto;
 }
 td{
-	border:1px solid black;
+	padding: 10px;
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+caption{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: 微軟正黑體;
+	color: #5998D6;
 }
