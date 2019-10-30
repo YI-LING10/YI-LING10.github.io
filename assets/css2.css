@@ -1,0 +1,32 @@
+body{
+	background: -webkit-linear-gradient(#b4c4ae,#edd9a8);
+    background: -o-linear-gradient(#b4c4ae,#edd9a8);
+    background: -moz-linear-gradient(#b4c4ae,#edd9a8);
+    background: linear-gradient(#b4c4ae,#edd9a8);
+}
+
+.button{
+	background-color:#FFC0CB;
+    position: absolute;
+    top:580px;
+	left:750px;
+    font-size: 36px;
+    font-family: "微軟正黑體";
+    color:white;
+    font-weight: bold;
+}
+.z{
+	font-size: 24px;
+	font-family: 微軟正黑體;
+	color:#FFA07A;
+	text-shadow:	#F5DEB3 2px 1px 1px;
+    font-weight:bolder;
+	height:60px;
+
+}
+h4{
+	font-size: 36px;
+	color: #CD853F;
+	font-family: 微軟正黑體;
+	text-shadow:#DEB887 4px 2px 1px ;
+}
